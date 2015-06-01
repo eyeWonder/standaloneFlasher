@@ -1,0 +1,31 @@
+1A:Program\MCU
+1B:Read\MCU
+1C:Show\MCU Specs
+1D:Options
+2A:Program\Flash
+2B:Set Fuses
+2C:Program\Eeprom
+2D:Back
+3A:Read Flash\to File
+3B:Read Fuses\to File
+3C:Read Eeprom\to File
+3D:Back
+4A:
+4B:
+4C:
+4D:
+5A:Set Fuses\from File
+5B:Set own\Fuses
+5C:Set Default\Fuses
+5D:Back
+AA:MCU Specification
+AB:Name:
+AC:LFuse:
+AD:HFuse:
+AE:EFuse:
+AF:Flash:
+AG:Eeprom:
+AH:Signature:
+AI:Can't access Device!
+AJ:(No Device connected?)
+
