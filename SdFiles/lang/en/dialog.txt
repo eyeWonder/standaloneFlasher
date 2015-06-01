@@ -1,0 +1,15 @@
+---DIALOGS---
+0100MCU Specification; 
+0101Name:;
+0102LFuse:;
+0103HFuse:;
+0104EFuse:;
+0105Flash:;
+0106Eeprom:;
+0107Signature:;
+0108Can't acces Device!;
+0109(No Device connected?);
+^ ^ ^
+| | |----------------<STRING (';' line end)
+| |------------------<BYTE : String Index
+|--------------------<BYTE : Dialog Index (DIALOG MASK: 0x7F)

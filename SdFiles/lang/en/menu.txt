@@ -1,0 +1,13 @@
+---MENUS---
+80FF04009100690201 //Main Menu
+81FF04009100690201 //Program Menu
+82FF04009100690201 //Read Menu
+83FF04009100690201 //Program Fuses Menu
+^ ^ ^ ^   ^   ^ ^ 
+| | | |   |   | |--<BYTE : Align (0 = center, 1 = top-left)
+| | | |   |   |----<BYTE : Num of Cols
+| | | |   |--------<WORD : Buttonheight
+| | | |------------<WORD : Buttonwidth
+| | |--------------<BYTE : Num of Buttons
+| |----------------<BYTE : Menu Decription Identifier
+|------------------<BYTE : Menu Index (Menu MASK = 0x80)

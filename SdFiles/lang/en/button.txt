@@ -1,0 +1,26 @@
+---BUTTONS---
+--Main Menu--
+800081Program/MCU;		//Program MCU Menu
+800182Read/MCU;			//Read MCU Menu
+800201Show/MCU Specs;		//Show MCU Specification Dialog
+800300Options;			//Options Menu (No Function)
+--Program Menu--
+810000Program/Flash;		//Program Flash Dialog (No Function)
+810183Set Fuses;		//Program Fuses Menu
+810200Program/Eeprom;		//Program Eeprom Dialog (No Function)
+810380Back;			//Main Menu
+--Read Menu--
+820000Read Flash/to File	//Read Flash Dialog (No Function)
+820100Read Fuses/to File	//Read Fuses Dialog (No Function)
+820200Read Eeprom/to File	//Read Eeprom Dialog (No Function)
+820380Back;			//Main Menu
+--Program Fuses Menu
+830000Set Fuses/from File	//Choose Fuse File Dialog (No Function)
+830100Set own/Fuses		//Set own Fuses Dialog (No Function)
+830202Set Default/Fuses		//Set Default Fuses Dialog (No Dialog)
+830380Back;			//Main Menu
+^ ^ ^ ^
+| | | |------------<STRING : Button Text ( '/' = Line seperator, ';' Line end)
+| | |--------------<BYTE : Instruction Pointer ( < 0x80 = Dialog; >= 0x80 Menu)
+| |----------------<BYTE : Button Index ( < 0xFF)
+|------------------<BYTE : Menu Index (Menu MASK = 0x80)
